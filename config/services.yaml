@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Vinorcola\GluuAuthBundle\:
+        resource: '../src/*'
+        exclude: '../src/Model/User.php'
